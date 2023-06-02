@@ -1,1 +1,2 @@
-cd src && python main.py
+#!/bin/bash
+cd src && python3 main.py $1

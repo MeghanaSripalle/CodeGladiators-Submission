@@ -5,8 +5,6 @@ from dotenv import dotenv_values
 config = dotenv_values("../config/.env")
 
 # write a function that accepts a city's name from the command line interface and if city name is more than 1 word then asks for how many words long the city name is and uses those many arguments to get the city name and  handles if argument not given,stores the city name and then returns the city name
-
-
 def get_city_name():
     city_name = ''
     if len(sys.argv) > 1:
@@ -16,21 +14,24 @@ def get_city_name():
     return city_name
 
 # write a function that uses the city name from the get_city_name function and fetches the weather forecast of the city from the OpenWeatherMap API and handles the various possible errors
-
-
 def get_weather_data(city_name):
     api_key = config["API_KEY"]
     url = f'http://api.openweathermap.org/data/2.5/weather?q={city_name}&appid={api_key}&units=metric'
-    response = requests.get(url)
-    if response.status_code != 200:
-        print('Could not fetch the weather data')
+    try:
+        response = requests.get(url)
+        if response.status_code != 200:
+            print('Could not fetch the weather data')
+            sys.exit(1)
+        weather_data = response.json()
+        return weather_data
+    except requests.exceptions.RequestException as e:
+        print("An error occurred while fetching weather data:", str(e))
         sys.exit(1)
-    weather_data = response.json()
-    return weather_data
+    except json.JSONDecodeError:
+        print("Invalid JSON response from the API.")
+        sys.exit(1)
 
 # write a function that uses the weather data from the get_weather_data function and prints the weather data with emphasis on each parameter in a readable format
-
-
 def print_weather_data(weather_data):
     print(f'City: {weather_data["name"]}')
     print(f'Country: {weather_data["sys"]["country"]}')
