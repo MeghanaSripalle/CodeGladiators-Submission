@@ -1,0 +1,44 @@
+{
+  "coord": {
+    "lon": 79.5833,
+    "lat": 18
+  },
+  "weather": [
+    {
+      "id": 804,
+      "main": "Clouds",
+      "description": "overcast clouds",
+      "icon": "04n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 35.44,
+    "feels_like": 33.42,
+    "temp_min": 35.44,
+    "temp_max": 35.44,
+    "pressure": 1003,
+    "humidity": 19,
+    "sea_level": 1003,
+    "grnd_level": 975
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 1.88,
+    "deg": 216,
+    "gust": 1.97
+  },
+  "clouds": {
+    "all": 95
+  },
+  "dt": 1685735448,
+  "sys": {
+    "country": "IN",
+    "sunrise": 1685750731,
+    "sunset": 1685798055
+  },
+  "timezone": 19800,
+  "id": 1252948,
+  "name": "Warangal",
+  "cod": 200
+}
