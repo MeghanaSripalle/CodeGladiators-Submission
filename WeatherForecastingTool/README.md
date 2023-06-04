@@ -6,8 +6,9 @@ This is a command-line tool developed using Python that leverages the OpenWeathe
 ## Prerequisites
 
 - Python 3.7
-- [requests](https://requests.readthedocs.io/en/master/)
-- [dotenv](https://pypi.org/project/python-dotenv/)
+- requests
+- dotenv
+- json
 
 ## Installation
 
