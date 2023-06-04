@@ -1,8 +1,0 @@
-com/ecommerce/constant/SQLQueriesConstant.class
-com/ecommerce/restController/ProductRestController.class
-com/ecommerce/dao/ProductDaoInterface.class
-com/ecommerce/bean/Product.class
-com/ecommerce/App.class
-com/ecommerce/utils/DBUtils.class
-com/dropwizard/App.class
-com/ecommerce/dao/ProductDaoOperation.class
