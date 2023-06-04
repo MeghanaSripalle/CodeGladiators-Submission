@@ -1,44 +1,43 @@
 {
   "coord": {
-    "lon": 79.5833,
-    "lat": 18
+    "lon": 75.0167,
+    "lat": 15.4667
   },
   "weather": [
     {
-      "id": 804,
+      "id": 802,
       "main": "Clouds",
-      "description": "overcast clouds",
-      "icon": "04n"
+      "description": "scattered clouds",
+      "icon": "03n"
     }
   ],
   "base": "stations",
   "main": {
-    "temp": 35.44,
-    "feels_like": 33.42,
-    "temp_min": 35.44,
-    "temp_max": 35.44,
-    "pressure": 1003,
-    "humidity": 19,
-    "sea_level": 1003,
-    "grnd_level": 975
+    "temp": 23.66,
+    "feels_like": 24.25,
+    "temp_min": 23.66,
+    "temp_max": 23.66,
+    "pressure": 1012,
+    "humidity": 83
   },
-  "visibility": 10000,
+  "visibility": 6000,
   "wind": {
-    "speed": 1.88,
-    "deg": 216,
-    "gust": 1.97
+    "speed": 2.06,
+    "deg": 220
   },
   "clouds": {
-    "all": 95
+    "all": 40
   },
-  "dt": 1685735448,
+  "dt": 1685899509,
   "sys": {
+    "type": 1,
+    "id": 9222,
     "country": "IN",
-    "sunrise": 1685750731,
-    "sunset": 1685798055
+    "sunrise": 1685838504,
+    "sunset": 1685885294
   },
   "timezone": 19800,
-  "id": 1252948,
-  "name": "Warangal",
+  "id": 1272818,
+  "name": "Dharwad",
   "cod": 200
 }
