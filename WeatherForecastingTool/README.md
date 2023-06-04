@@ -28,4 +28,4 @@ python weather.py <city-name>
 python weather.py <number-of-words> <city-name>
 ``` -->
 
-The program will fetch the weather data from the OpenWeatherMap API and store it in a `weather_data.json` file in the `src` directory. It will also print the weather data in a readable format.
+The program utilizes the OpenWeatherMap API to retrieve weather data, which is then stored in a JSON file `weather_data.json`. Additionally, the program displays the weather data in a readable format within the command prompt.
