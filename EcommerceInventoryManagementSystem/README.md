@@ -77,5 +77,5 @@ By leveraging OOP principles and the Singleton pattern, the e-commerce managemen
 
 ## License
 
-This project is licensed under the MIT License. See the [https://github.com/MeghanaSripalle/Weather-Forecasting-Tool/blob/main/LICENSE](LICENSE) file for more information.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/MeghanaSripalle/Weather-Forecasting-Tool/blob/main/LICENSE) file for more information.
 
