@@ -47,10 +47,10 @@ The e-commerce management system creates a database named `EcommerceDatabase` an
 
 The following API endpoints are exposed by the system:
 
-- `POST /ecommerce/add/product`: Add a new product.
+- `POST /ecommerce/add/product`: Add new products.
 - `POST /ecommerce/delete/product`: Delete one or more products by providing their IDs.
 - `GET /ecommerce/getStock/product/{productId}`: Get the stock of a product by its ID.
-- `PUT /ecommerce/update/product`: Update an existing product.
+- `PUT /ecommerce/update/product`: Updates existing products.
 
 Please note that all API endpoints require authentication, and you should include the appropriate headers or tokens for authorization purposes.
 
