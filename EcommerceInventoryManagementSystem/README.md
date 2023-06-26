@@ -41,7 +41,7 @@ The application should now be running on `http://localhost:8080`.
 
 ## Database Setup
 
-The e-commerce management system creates a database named `EcommerceDatabase` and a table named `Products` if they don't already exist. The necessary database and table will be automatically created during the first run of the application.
+The e-commerce management system creates a database named `EcommerceDatabase` and a table named `Products` if they don't already exist. The necessary database and table will be automatically created during the first run of the application. Also, make sure to set root user password as 12345678
 
 ## API Endpoints
 
