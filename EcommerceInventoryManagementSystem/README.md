@@ -34,7 +34,7 @@ mvn clean package
 4. Start the application:
 
 ```
-java -jar target/ecommerce-1.0-SNAPSHOT.jar server config.yml
+java -jar target/ecommerce-1.0-SNAPSHOT.jar server 
 ```
 
 The application should now be running on `http://localhost:8080`.
